@@ -1,0 +1,55 @@
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?train');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height:  100vh;
+    overflow: hidden;
+}
+
+h1, h2, p#save-el{
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 5px;
+    color: #fff;
+    padding: 15px 0px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h1{
+    padding: 15px 45px;
+}
+
+h1, h2, button, p {
+    box-shadow: 0.5px 1px 5px 5px rgba(82, 36, 36, 0.78);
+    min-width: 300px;
+}
+
+button {
+    padding: 15px 45px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+}
+
+#increment-btn {
+    background-color: rgba(209, 2, 2, 1);
+}
+
+#save-btn {
+    background-color: rgb(48, 199, 28);
+    margin-top: 20px;
+}
+
+p#save-el {
+    font-size: 1.5rem;
+    padding: 15px 45px;
+    max-width: 500px;
+}
+
+
